@@ -26,6 +26,17 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.svg'
+import python from './python.svg'
+import c from './c.png'
+import recoil from './recoil.jpg'
+import postgres from './postgres.png'
+import firebase from './firebase.png'
+import docker from './docker.png'
+import nginx from './nginx.svg'
+import prisma from './prisma.jpg'
+import spotify from './spotify.png'
+import wallet from './wallet.png'
 
 export {
     css,
@@ -55,5 +66,16 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    java,
+    python,
+    c,
+    recoil,
+    postgres,
+    firebase,
+    docker,
+    nginx,
+    prisma,
+    spotify,
+    wallet,
 }
