@@ -182,7 +182,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/yrohithreddy',
+        link: 'https://linkedin.com/in/yrohithreddy',
     }
 ];
 
