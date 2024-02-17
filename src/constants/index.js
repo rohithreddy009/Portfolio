@@ -35,6 +35,7 @@ import {
     prisma,
     spotify,
     wallet,
+    sociopedia
 } from "../assets/icons";
 
 
@@ -188,21 +189,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: spotify,
-        theme: 'btn-back-yellow',
-        name: 'AuraTunes',
-        description: 'Online music streaming web app',
-        link: 'https://github.com/rohithreddy009/AuraTunes',
-        liveLink: 'https://google.com/'
+        iconUrl: sociopedia,
+        theme: 'btn-back-green',
+        name: 'Sociopedia',
+        description: 'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together establishing a vibrant community',
+        link: 'https://github.com/rohithreddy009/sociopedia',
+        liveLink: 'https://sociopedia.rohithreddy.site'
     },
     {
         iconUrl: wallet,
         theme: 'btn-back-blue',
         name: 'Web2 Wallet',
         description: 'Web2 wallet consisting of users who can send and receive money',
-        link: 'https://github.com/rohithreddy009/web2_wallet',
-        liveLink: 'https://google.com/'
+        link: 'https://github.com/rohithreddy009/web2_wallet_archived',
+        liveLink: 'https://web2wallet-archived.rohithreddy.site/signup'
     },
+    {
+        iconUrl: spotify,
+        theme: 'btn-back-yellow',
+        name: 'AuraTunes',
+        description: 'Online music streaming web app',
+        link: 'https://github.com/rohithreddy009/AuraTunes',
+        liveLink: 'https://auratunes.rohithreddy.site'
+    },
+    
+    
     // {
     //     iconUrl: car,
     //     theme: 'btn-back-blue',

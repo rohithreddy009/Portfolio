@@ -35,8 +35,9 @@ import firebase from './firebase.png'
 import docker from './docker.png'
 import nginx from './nginx.svg'
 import prisma from './prisma.jpg'
-import spotify from './spotify.png'
+import spotify from './spotify.svg'
 import wallet from './wallet.png'
+import sociopedia from './sociopedia.svg'
 
 export {
     css,
@@ -78,4 +79,5 @@ export {
     prisma,
     spotify,
     wallet,
+    sociopedia
 }
