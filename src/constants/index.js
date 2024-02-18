@@ -200,7 +200,7 @@ export const projects = [
         iconUrl: wallet,
         theme: 'btn-back-blue',
         name: 'Web2 Wallet',
-        description: 'Web2 wallet consisting of users who can send and receive money',
+        description: 'A secure Digital Wallet to transfer and receive money to/from users',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
         liveLink: 'https://web2wallet-archived.rohithreddy.site'
     },
