@@ -202,7 +202,7 @@ export const projects = [
         name: 'Web2 Wallet',
         description: 'Web2 wallet consisting of users who can send and receive money',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
-        liveLink: 'https://web2wallet-archived.rohithreddy.site/signup'
+        liveLink: 'https://web2wallet-archived.rohithreddy.site'
     },
     {
         iconUrl: spotify,
