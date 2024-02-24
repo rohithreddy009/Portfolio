@@ -1,9 +1,5 @@
 import { NavLink } from "react-router-dom";
-
 import { logo, logo2 } from "../assets/images";
-
-
-
 
 const Navbar = () => {
   return (
@@ -18,9 +14,14 @@ const Navbar = () => {
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
           Projects
         </NavLink>
+        {/* Replace NavLink for Resume with an <a> tag */}
+        <a href="https://docs.google.com/document/d/18LxCnOjm5Ltj79RXTV_nZ65ukfdII-rOaBpeosWtCYs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-600">
+          Resume
+        </a>
       </nav>
     </header>
   );
 };
 
 export default Navbar;
+
