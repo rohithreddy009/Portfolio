@@ -34,10 +34,12 @@ import postgres from './postgres.png'
 import firebase from './firebase.png'
 import docker from './docker.png'
 import nginx from './nginx.svg'
-import prisma from './prisma.jpg'
+import prisma from './prisma.svg'
 import spotify from './spotify.svg'
 import wallet from './wallet.png'
 import sociopedia from './sociopedia.svg'
+import hono from './hono.png'
+import blog from './blog.svg'
 
 export {
     css,
@@ -79,5 +81,7 @@ export {
     prisma,
     spotify,
     wallet,
-    sociopedia
+    sociopedia,
+    hono,
+    blog
 }

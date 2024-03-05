@@ -35,7 +35,9 @@ import {
     prisma,
     spotify,
     wallet,
-    sociopedia
+    sociopedia,
+    hono,
+    blog
 } from "../assets/icons";
 
 
@@ -87,6 +89,11 @@ export const skills = [
         type: "Database",
     },
     {
+        imageUrl: prisma,
+        name: "Prisma",
+        type: "ORM",
+    },
+    {
         imageUrl: firebase,
         name: "firebase",
         type: "Database",
@@ -107,14 +114,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
+        imageUrl: hono,
+        name: "hono",
         type: "Backend",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
         imageUrl: tailwindcss,
@@ -145,11 +152,6 @@ export const skills = [
         imageUrl: nginx,
         name: "Nginx",
         type: "N/A",
-    },
-    {
-        imageUrl: prisma,
-        name: "Prisma",
-        type: "ORM",
     },
 ];
 
@@ -192,9 +194,10 @@ export const projects = [
         iconUrl: sociopedia,
         theme: 'btn-back-green',
         name: 'Sociopedia',
-        description: 'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together establishing a vibrant community',
+        description: 'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together',
         link: 'https://github.com/rohithreddy009/sociopedia',
-        liveLink: 'https://sociopedia.rohithreddy.site'
+        liveLink: 'https://sociopedia.rohithreddy.site',
+        techStack: "TechStack: MongoDB, Express, React, MaterialUI"
     },
     {
         iconUrl: wallet,
@@ -202,7 +205,8 @@ export const projects = [
         name: 'Web2 Wallet',
         description: 'A secure Digital Wallet to transfer and receive money between users',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
-        liveLink: 'https://web2-wallet.rohithreddy.site'
+        liveLink: 'https://web2-wallet.rohithreddy.site',
+        techStack: "TechStack: MongoDB, Express, React, TailwindCSS"
     },
     {
         iconUrl: spotify,
@@ -210,17 +214,18 @@ export const projects = [
         name: 'AuraTunes',
         description: 'Online music streaming web app',
         link: 'https://github.com/rohithreddy009/AuraTunes',
-        liveLink: 'https://auratunes.rohithreddy.site'
+        liveLink: 'https://auratunes.rohithreddy.site',
+        techStack: "TechStack: React, Express, RapidAPI, TailwindCSS"
     },
-    
-    
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
+    {
+        iconUrl: blog,
+        theme: 'btn-back-pink',
+        name: 'Blogger',
+        description: 'Blogger is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
+        link: 'https://github.com/rohithreddy009/Medium',
+        liveLink: "https://blogger.rohithreddy.site",
+        techStack: "TechStack: PostgreSQL, Cloudflare Workers, Hono, React TS, TailwindCSS"
+    },
     // {
     //     iconUrl: snapgram,
     //     theme: 'btn-back-pink',
