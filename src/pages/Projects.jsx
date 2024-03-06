@@ -31,14 +31,13 @@ const Projects = () => {
                 />
               </div>
             </div>
-
             <div className='mt-5 flex flex-col'>
-            <h4 className='text-2xl font-poppins font-bold'>
-                  {project.name}
-                </h4>
-                <div className='text-l font-poppins font-semibold text-gray-600'>
-                  {project.techStack}
-                </div>
+              <h4 className='text-2xl font-poppins font-bold mb-4'>
+                {project.name}
+              </h4>
+              <div className='text-l font-poppins font-semibold text-gray-600'>
+                {project.techStack}
+              </div>
               <p className='mt-2 text-slate-500'>{project.description}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
