@@ -224,7 +224,7 @@ export const projects = [
         description: 'Blogger is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
         link: 'https://github.com/rohithreddy009/Medium',
         liveLink: "https://blogger.rohithreddy.site",
-        techStack: "TechStack: PostgreSQL, Cloudflare Workers, Hono, React TS, TailwindCSS"
+        techStack: "TechStack: PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React TS, TailwindCSS"
     },
     // {
     //     iconUrl: snapgram,
