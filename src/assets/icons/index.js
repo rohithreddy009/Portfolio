@@ -83,5 +83,5 @@ export {
     wallet,
     sociopedia,
     hono,
-    blog
+    blog,
 }

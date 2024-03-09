@@ -37,7 +37,7 @@ import {
     wallet,
     sociopedia,
     hono,
-    blog
+    blog,
 } from "../assets/icons";
 
 
@@ -152,7 +152,7 @@ export const skills = [
         imageUrl: nginx,
         name: "Nginx",
         type: "N/A",
-    },
+    }
 ];
 
 export const experiences = [
@@ -197,7 +197,7 @@ export const projects = [
         description: 'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together',
         link: 'https://github.com/rohithreddy009/sociopedia',
         liveLink: 'https://sociopedia.rohithreddy.site',
-        techStack: "TechStack: MongoDB, Express, React, MaterialUI"
+        techStack: "TechStack: MongoDB, Express, React, Redux, MaterialUI"
     },
     {
         iconUrl: wallet,
