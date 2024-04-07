@@ -15,7 +15,7 @@ const Navbar = () => {
           Projects
         </NavLink>
         {/* Replace NavLink for Resume with an <a> tag */}
-        <a href="https://docs.google.com/document/d/18LxCnOjm5Ltj79RXTV_nZ65ukfdII-rOaBpeosWtCYs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-600">
+        <a href="https://docs.google.com/document/d/1X_LntxJO1ut_oTyLuw7MfRMH6CqgfizwUFs6ibvQT78/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-600">
           Resume
         </a>
       </nav>
