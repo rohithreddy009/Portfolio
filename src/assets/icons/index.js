@@ -40,6 +40,8 @@ import wallet from './wallet.png'
 import sociopedia from './sociopedia.svg'
 import hono from './hono.png'
 import blog from './blog.svg'
+import redis from './redis.png'
+import live from './live.svg'
 
 export {
     css,
@@ -84,4 +86,6 @@ export {
     sociopedia,
     hono,
     blog,
+    redis,
+    live
 }

@@ -54,7 +54,7 @@ const Home = () => {
     return [screenScale, screenPosition];
   };
 
-  const [biplaneScale, biplanePosition] = adjustBiplaneForScreenSize();
+  // const [biplaneScale, biplanePosition] = adjustBiplaneForScreenSize();
   const [islandScale, islandPosition] = adjustIslandForScreenSize();
 
   return (
@@ -95,12 +95,12 @@ const Home = () => {
             rotation={[0.1, 4.7077, 0]}
             scale={islandScale}
           />
-          <Plane
+          {/* <Plane
             isRotating={isRotating}
             position={biplanePosition}
             rotation={[0, 20.1, 0]}
             scale={biplaneScale}
-          />
+          /> */}
         </Suspense>
       </Canvas>
 

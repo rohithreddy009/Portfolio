@@ -38,6 +38,8 @@ import {
     sociopedia,
     hono,
     blog,
+    redis,
+    live
 } from "../assets/icons";
 
 
@@ -89,14 +91,19 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: prisma,
-        name: "Prisma",
-        type: "ORM",
+        imageUrl: redis,
+        name: "redis",
+        type: "Database",
     },
     {
         imageUrl: firebase,
         name: "firebase",
         type: "Database",
+    },
+    {
+        imageUrl: prisma,
+        name: "Prisma",
+        type: "ORM",
     },
     {
         imageUrl: express,
@@ -191,6 +198,15 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: live,
+        theme: 'btn-back-black',
+        name: 'LiveMeet',
+        description: 'Video conferencing tool enables users to securely login, create meetings, access recordings, screenshare and managing participants',
+        link: 'https://github.com/rohithreddy009/LiveMeet',
+        liveLink: 'https://livemeet.rohithreddy.site',
+        techStack: "TechStack: NextJS, Stream, Shadcn, TailwindCSS, Clerk, Typescript"
+    },
+    {
         iconUrl: sociopedia,
         theme: 'btn-back-green',
         name: 'Sociopedia',
@@ -202,7 +218,7 @@ export const projects = [
     {
         iconUrl: wallet,
         theme: 'btn-back-blue',
-        name: 'Web2 Wallet',
+        name: 'Web Wallet',
         description: 'A secure Digital Wallet to transfer and receive money between users',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
         liveLink: 'https://web2-wallet.rohithreddy.site',
@@ -215,7 +231,7 @@ export const projects = [
         description: 'Online music streaming web app',
         link: 'https://github.com/rohithreddy009/AuraTunes',
         liveLink: 'https://auratunes.rohithreddy.site',
-        techStack: "TechStack: React, Express, RapidAPI, TailwindCSS"
+        techStack: "TechStack: React, Express, TailwindCSS"
     },
     {
         iconUrl: blog,
@@ -224,27 +240,6 @@ export const projects = [
         description: 'Blogger is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
         link: 'https://github.com/rohithreddy009/Medium',
         liveLink: "https://blogger.rohithreddy.site",
-        techStack: "TechStack: PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React TS, TailwindCSS"
+        techStack: "TechStack: Typescript, PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React, TailwindCSS"
     },
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
 ];
