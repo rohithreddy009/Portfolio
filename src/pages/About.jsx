@@ -26,24 +26,31 @@ const About = () => {
         </p>
       </div>
 
-      <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'> Skills</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
+          <div className='py-10 flex flex-col'>
+            <h3 className='subhead-text'>Skills</h3>
+            
+            <div className='mt-16 flex flex-wrap gap-12 justify-start'>
+              {skills.map((skill) => (
+                <div className='skill-container flex flex-col items-center w-20 h-28' key={skill.name}>
+                  <div className='block-container w-full h-full'>
+                    <div className='btn-back rounded-sm' />
+                    <div className='btn-front rounded-sm flex justify-center items-center'>
+                      <img
+                        src={skill.imageUrl}
+                        alt={skill.name}
+                        className='w-1/2 h-1/2 object-contain'
+                      />
+                    </div>
+                  </div>
+                  <p className='mt-2 text-sm text-center font-semibold'>{skill.name}</p> 
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
+          </div> 
+
+
+
 
       {/* <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
