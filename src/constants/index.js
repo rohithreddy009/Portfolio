@@ -132,7 +132,7 @@ export const skills = [
     },
     {
         imageUrl: tailwindcss,
-        name: "Tailwind CSS",
+        name: "Tailwind",
         type: "Frontend",
     },
     {
