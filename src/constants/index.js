@@ -57,12 +57,12 @@ export const skills = [
     },
     {
         imageUrl: java,
-        name:"java",
+        name:"Java",
         type: "Programming"
     },
     {
         imageUrl: python,
-        name:"python",
+        name:"Python",
         type: "Programming"
     },
     {
@@ -107,7 +107,7 @@ export const skills = [
     },
     {
         imageUrl: express,
-        name: "Express",
+        name: "express",
         type: "Backend",
     },
     {
@@ -122,7 +122,7 @@ export const skills = [
     },
     {
         imageUrl: hono,
-        name: "hono",
+        name: "Hono",
         type: "Backend",
     },
     {

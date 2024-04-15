@@ -43,7 +43,7 @@ const About = () => {
                       />
                     </div>
                   </div>
-                  <p className='mt-2 text-sm text-center font-semibold'>{skill.name}</p> 
+                  <p className='mt-2 text-sm text-center font-poppins'>{skill.name}</p> 
                 </div>
               ))}
             </div>
