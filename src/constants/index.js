@@ -223,7 +223,7 @@ export const projects = [
         description:
             'A secure Digital Wallet to transfer and receive money between users',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
-        liveLink: 'https://web2-wallet.rohithreddy.site',
+        liveLink: 'https://webwallet.rohithreddy.site',
         techStack: 'TechStack: MongoDB, Express, React, TailwindCSS',
     },
     {
