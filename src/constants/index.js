@@ -236,10 +236,10 @@ export const projects = [
     {
         iconUrl: blog,
         theme: 'btn-back-pink',
-        name: 'Blogger',
-        description: 'Blogger is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
+        name: 'Medium',
+        description: 'Medium is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
         link: 'https://github.com/rohithreddy009/Medium',
-        liveLink: "https://blogger.rohithreddy.site",
+        liveLink: "https://medium.rohithreddy.site",
         techStack: "TechStack: Typescript, PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React, TailwindCSS"
     },
 ];

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      cursor: {
+        'figma': 'url(./src/assets/icons/figma-cursor.svg), auto',
+      },
       colors: {
         gray: {
           200: "#D5DAE1"
