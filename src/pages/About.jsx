@@ -1,58 +1,57 @@
 import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+    VerticalTimeline,
+    VerticalTimelineElement,
+} from 'react-vertical-timeline-component'
 
-import { CTA } from "../components";
-import { experiences, skills } from "../constants";
+import { CTA } from '../components'
+import { experiences, skills } from '../constants'
 
-import "react-vertical-timeline-component/style.min.css";
+import 'react-vertical-timeline-component/style.min.css'
 
 const About = () => {
-  return (
-    <section className='max-container'>
-      <h1 className='head-text'>
-        Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
-          {" "}
-          Rohith
-        </span>{" "}
-        👋
-      </h1>
+    return (
+        <section className="max-container">
+            <h1 className="head-text">
+                Hello, I'm{' '}
+                <span className="blue-gradient_text font-semibold drop-shadow">
+                    {' '}
+                    Rohith
+                </span>{' '}
+                👋
+            </h1>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          FullStack Engineer
-        </p>
-      </div>
-
-
-          <div className='py-10 flex flex-col'>
-            <h3 className='subhead-text'>Technical Skills</h3>
-            
-            <div className='mt-16 flex flex-wrap gap-12 justify-start'>
-              {skills.map((skill) => (
-                <div className='skill-container flex flex-col items-center w-20 h-28' key={skill.name}>
-                  <div className='block-container w-full h-full'>
-                    <div className='btn-back rounded-sm' />
-                    <div className='btn-front rounded-sm flex justify-center items-center'>
-                      <img
-                        src={skill.imageUrl}
-                        alt={skill.name}
-                        className='w-1/2 h-1/2 object-contain'
-                      />
-                    </div>
-                  </div>
-                  <p className='mt-2 text-sm text-center font-poppins'>{skill.name}</p> 
-                </div>
-              ))}
+            <div className="mt-5 flex flex-col gap-3 text-slate-500">
+                <p>FullStack Engineer</p>
             </div>
-          </div> 
 
+            <div className="py-10 flex flex-col">
+                <h3 className="subhead-text">Technical Skills</h3>
 
+                <div className="mt-16 flex flex-wrap gap-12 justify-start">
+                    {skills.map((skill) => (
+                        <div
+                            className="skill-container flex flex-col items-center w-20 h-28"
+                            key={skill.name}
+                        >
+                            <div className="block-container w-full h-full">
+                                <div className="btn-back rounded-sm" />
+                                <div className="btn-front rounded-sm flex justify-center items-center">
+                                    <img
+                                        src={skill.imageUrl}
+                                        alt={skill.name}
+                                        className="w-1/2 h-1/2 object-contain"
+                                    />
+                                </div>
+                            </div>
+                            <p className="mt-2 text-sm text-center font-poppins">
+                                {skill.name}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+            </div>
 
-
-      {/* <div className='py-16'>
+            {/* <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         </div>
@@ -108,11 +107,11 @@ const About = () => {
         </div>
       </div> */}
 
-      <hr className='border-slate-200' />
+            <hr className="border-slate-200" />
 
-      <CTA />
-    </section>
-  );
-};
+            <CTA />
+        </section>
+    )
+}
 
-export default About;
+export default About

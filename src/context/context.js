@@ -1,16 +1,16 @@
 // Context.js
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState } from 'react'
 
-const LayoutContext = createContext();
+const LayoutContext = createContext()
 
-export const useLayout = () => useContext(LayoutContext);
+export const useLayout = () => useContext(LayoutContext)
 
 export const LayoutProvider = ({ children }) => {
-  const [footerVisible, setFooterVisible] = useState(true);
+    const [footerVisible, setFooterVisible] = useState(true)
 
-  return (
-    <LayoutContext.Provider value={{ footerVisible, setFooterVisible }}>
-      {children}
-    </LayoutContext.Provider>
-  );
-};
+    return (
+        <LayoutContext.Provider value={{ footerVisible, setFooterVisible }}>
+            {children}
+        </LayoutContext.Provider>
+    )
+}

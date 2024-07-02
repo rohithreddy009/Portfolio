@@ -6,12 +6,4 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import logo2 from './logo2.svg'
 
-export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo,
-    logo2
-}
+export { hero, meta, shopify, starbucks, tesla, logo, logo2 }

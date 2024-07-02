@@ -87,5 +87,5 @@ export {
     hono,
     blog,
     redis,
-    live
+    live,
 }
