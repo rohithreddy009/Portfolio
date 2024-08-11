@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
 import { Footer, Navbar } from './components'
-import { About, Contact, Home, Projects, Resume } from './pages'
+import { About, Contact, Home, Projects } from './pages'
 
 const App = () => {
     return (
@@ -24,10 +24,10 @@ const App = () => {
                                         path="/contact"
                                         element={<Contact />}
                                     />
-                                    <Route
+                                    {/* <Route
                                         path="/resume"
                                         element={<Resume />}
-                                    />
+                                    /> */}
                                 </Routes>
                                 <Footer />
                             </>
