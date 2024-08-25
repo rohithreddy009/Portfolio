@@ -40,6 +40,7 @@ import {
     blog,
     redis,
     live,
+    sketch,
 } from '../assets/icons'
 
 export const skills = [
@@ -207,14 +208,15 @@ export const projects = [
             'TechStack: NextJS, Stream, Shadcn, TailwindCSS, Clerk, Typescript',
     },
     {
-        iconUrl: sociopedia,
-        theme: 'btn-back-green',
-        name: 'Sociopedia',
+        iconUrl: sketch,
+        theme: 'btn-back-orange',
+        name: 'sketch',
         description:
-            'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together',
-        link: 'https://github.com/rohithreddy009/sociopedia',
-        liveLink: 'https://sociopedia.rohithreddy.site',
-        techStack: 'TechStack: MongoDB, Express, React, Redux, MaterialUI',
+            'Create and edit documents and drawings easily. This app lets you work on both text and canvas projects, and save your work effortlessly. Perfect for anyone needing a tool for writing and drawing.',
+        link: 'https://github.com/rohithreddy009/sketch',
+        liveLink: 'https://easydraw.rohithreddy.site',
+        techStack:
+            'Techstack: NextJs, Typescript, ConvexDB, Tailwind, ShadCn, Kinde Auth',
     },
     {
         iconUrl: wallet,
@@ -227,15 +229,6 @@ export const projects = [
         techStack: 'TechStack: MongoDB, Express, React, TailwindCSS',
     },
     {
-        iconUrl: spotify,
-        theme: 'btn-back-yellow',
-        name: 'AuraTunes',
-        description: 'Online music streaming web app',
-        link: 'https://github.com/rohithreddy009/AuraTunes',
-        liveLink: 'https://auratunes.rohithreddy.site',
-        techStack: 'TechStack: React, Express, TailwindCSS',
-    },
-    {
         iconUrl: blog,
         theme: 'btn-back-pink',
         name: 'Medium',
@@ -245,5 +238,24 @@ export const projects = [
         liveLink: 'https://medium.rohithreddy.site',
         techStack:
             'TechStack: Typescript, PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React, TailwindCSS',
+    },
+    {
+        iconUrl: sociopedia,
+        theme: 'btn-back-green',
+        name: 'Sociopedia',
+        description:
+            'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together',
+        link: 'https://github.com/rohithreddy009/sociopedia',
+        liveLink: 'https://sociopedia.rohithreddy.site',
+        techStack: 'TechStack: MongoDB, Express, React, Redux, MaterialUI',
+    },
+    {
+        iconUrl: spotify,
+        theme: 'btn-back-yellow',
+        name: 'AuraTunes',
+        description: 'Online music streaming web app',
+        link: 'https://github.com/rohithreddy009/AuraTunes',
+        liveLink: 'https://auratunes.rohithreddy.site',
+        techStack: 'TechStack: React, Express, TailwindCSS',
     },
 ]

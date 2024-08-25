@@ -42,6 +42,7 @@ import hono from './hono.png'
 import blog from './blog.svg'
 import redis from './redis.png'
 import live from './live.svg'
+import sketch from './sketch.svg'
 
 export {
     css,
@@ -88,4 +89,5 @@ export {
     blog,
     redis,
     live,
+    sketch,
 }
