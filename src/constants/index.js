@@ -203,7 +203,7 @@ export const projects = [
         description:
             'Video conferencing tool enables users to securely login, create meetings, access recordings, screenshare and managing participants',
         link: 'https://github.com/rohithreddy009/LiveMeet',
-        liveLink: 'https://livemeet.rohithreddy.site',
+        liveLink: 'https://livemeet.rohithreddy.dev',
         techStack:
             'TechStack: NextJS, Stream, Shadcn, TailwindCSS, Clerk, Typescript',
     },
@@ -214,7 +214,7 @@ export const projects = [
         description:
             'Create and edit documents and drawings easily. This app lets you work on both text and canvas projects, and save your work effortlessly. Perfect for anyone needing a tool for writing and drawing.',
         link: 'https://github.com/rohithreddy009/sketch',
-        liveLink: 'https://easydraw.rohithreddy.site',
+        liveLink: 'https://sketch.rohithreddy.dev',
         techStack:
             'Techstack: NextJs, Typescript, ConvexDB, Tailwind, ShadCn, Kinde Auth',
     },
@@ -225,7 +225,7 @@ export const projects = [
         description:
             'A secure Digital Wallet to transfer and receive money between users',
         link: 'https://github.com/rohithreddy009/web2_wallet_archived',
-        liveLink: 'https://webwallet.rohithreddy.site',
+        liveLink: 'https://webwallet.rohithreddy.dev',
         techStack: 'TechStack: MongoDB, Express, React, TailwindCSS',
     },
     {
@@ -235,7 +235,7 @@ export const projects = [
         description:
             'Medium is an online publishing platform where users can read, write, and interact with articles covering a wide range of topics.',
         link: 'https://github.com/rohithreddy009/Medium',
-        liveLink: 'https://medium.rohithreddy.site',
+        liveLink: 'https://medium.rohithreddy.dev',
         techStack:
             'TechStack: Typescript, PostgreSQL, Prisma(ORM), Cloudflare Workers, Hono, React, TailwindCSS',
     },
@@ -246,16 +246,16 @@ export const projects = [
         description:
             'Socialmedia app where users can post and interact with their friends, comment on other ones post and make friends together',
         link: 'https://github.com/rohithreddy009/sociopedia',
-        liveLink: 'https://sociopedia.rohithreddy.site',
+        liveLink: 'https://sociopedia.rohithreddy.dev',
         techStack: 'TechStack: MongoDB, Express, React, Redux, MaterialUI',
     },
     {
         iconUrl: spotify,
         theme: 'btn-back-yellow',
-        name: 'AuraTunes',
+        name: 'Spotify',
         description: 'Online music streaming web app',
         link: 'https://github.com/rohithreddy009/AuraTunes',
-        liveLink: 'https://auratunes.rohithreddy.site',
+        liveLink: 'https://spotify.rohithreddy.dev',
         techStack: 'TechStack: React, Express, TailwindCSS',
     },
 ]
