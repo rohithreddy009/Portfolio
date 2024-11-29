@@ -21,7 +21,7 @@ const About = () => {
             </h1>
 
             <div className="mt-5 flex flex-col gap-3 text-slate-500">
-                <p>FullStack Engineer</p>
+                <p>I am a 4th-year undergraduate skilled in machine learning and web development, with experience in building AI-powered solutions and dynamic web applications.</p>
             </div>
 
             <div className="py-10 flex flex-col">
